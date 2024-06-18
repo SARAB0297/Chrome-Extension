@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+input {
+    width: 100%;
+    height:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+    font-size:medium;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;/*include padding within 100% width*/
+    border: 1px solid #5f9341;
+
+}
+button {
+    color: azure;
+    background-color: forestgreen;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin-top: 8px;
+    border-radius: 3px;
+    border:1.5px solid forestgreen
+}
+#delete-btn {
+    background-color: aliceblue;
+    color: #5f9341;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin-top: 8px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+margin-top: 5px;;
+}
+li a {
+    color:forestgreen;
+}
